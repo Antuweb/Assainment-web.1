@@ -238,22 +238,18 @@ border-radius: 30px;
     height: 200px;
     justify-content: center;
     box-shadow: 0px 0px 10px rgb(30, 23, 23);
-    /* gap: 100px; */
-    
     align-items: center;
-    margin: auto;
+    margin:0px auto 200px auto;
     justify-content:space-evenly;
 }
 
-   
 
 .spell h1{
     font-size: 50px;
 }
 .spell h4{
     font-size: 13px;
-    /* padding: 5px 0px; */
-    /* margin-bottom: 100px; */
+    
     text-align: center;
 }
 .spell{
@@ -266,13 +262,13 @@ border-radius: 30px;
     box-shadow: 0px 0px 20px gray;
     height: 240px;
     width: 50%;
-    z-index: 3;
+    
     border-radius: 20px;
     margin-left: 312px;
 }
 .newsletter{
-   margin-top: 100px;
-   
+   position: absolute;
+   top: -30%;
 
 }
 .newsletter h1{
@@ -301,7 +297,7 @@ border-radius: 30px;
     border:2px solid #10ADFA;
     background-color: #10ADFA;
     color: white;
-    margin:0px 0px;
+    margin-left:-5px;
 }
 .submit-input:hover{
     background-color: #ffffff;
@@ -349,4 +345,7 @@ border-radius: 30px;
 }
 .footer >p>span{
     color:#10ADFA;
+}
+.main-footer{
+    position: relative;
 }
