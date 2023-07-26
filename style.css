@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline:0;
+    box-sizing: border-box;
+}
+/* navigation area style here */
+.spece{
+    text-decoration: none;
+    margin:0px 20px;
+    color:rgba(4, 174, 241, 0.913)
+}
+.divfirst{
+    font-size: 40px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding:20px;
+}
+.divsecend{
+    margin-left: 200px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+   
+}
+.divsecend button{
+    border: none;
+    padding: 9px;
+    font-size: 16px;
+    color: rgb(2, 183, 255);
+    border-radius: 5px;
+    background-color: white;
+}
+.newhav{
+    margin:0px 60px;
+    
+}
+.newhav button{
+gap:40px;
+margin:0px 10px;
+padding:9px 18px;
+font-size: 16px;
+border-radius: 20px;
+border: none;
+color:white;
+background-color: skyblue;
+}
+.divsecend :hover{
+    color: white;
+    background-color: rgb(0, 175, 244);
+}
+.newhav :hover{
+    background-color: white;
+    color:rgba(0, 140, 196, 0.432);
+}
+
+/* <!-- service area style here --> */
+.image{
+    width: 500px;
+    margin: 40px;
+}
+.servicr1{
+    display: flex;
+padding:0px 20px;
+align-items: center;
+}
+.textarea{
+    font-size: 50px;
+}
+.font{
+    font-size: 50px;
+    text-decoration: none;
+    color: rgba(0, 167, 233, 0.943);
+}
+.soto{
+    font-size: 30px;
+}
+.amar-button{
+background-color: rgb(11, 181, 225);
+color:white;
+padding: 15px 25px;
+font-size: 20px;
+border: none;
+border-radius: 30px;
+}
+.amar-button:hover{
+   background-color: white;
+   color: rgb(0, 164, 228);
+   box-shadow: 0px 0px 10px black;
+}
+
+/* <!-- banner area style here --> */
+
+.image-area img{
+    width:500px;
+}
+.banner-contenar{
+    display: flex;
+    align-items: center;
+    background-color:rgb(249, 243, 243);
+}
+.font-size{
+    font-size:60px ;
+}
+.style{
+    text-decoration: none;
+    padding: 0px 10px;
+}
+.text-area p{
+    font-size: 20px;
+    
+    padding: 30px 0px;
+} 
+.text-area button{
+    background-color: rgb(2, 165, 225);
+    padding:12px 25px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 25px;
+}
+.text-area button:hover{
+    color: rgb(0, 164, 225);
+    background-color: white;
+    box-shadow: 0px 0px 8px black;
+}
+
+/* <!-- Body Area Style Here --> */
+
+
+.single-card{
+    text-align: center;
+
+}
+.pointer{
+    font-size: 50px;
+    text-decoration: none;
+}
+.single-card a{
+    text-decoration: none;
+}
+.single-card h5{
+    font-size: 20px;
+    margin:0px 400px;
+    color: rgb(108, 105, 105);
+}
+.edit-image{
+    width:250px
+}
+.div1{
+    background-color:white;
+    height: 500px;
+    width: 300px;
+    border-radius: 20px;
+    border:none;
+    box-shadow: 0px 0px 15px rgb(87, 78, 78);
+    margin-top: 50px;
+}
+.div1:hover{
+    box-shadow: 0px 0px 30px blue;
+
+    
+}
+.div1 img{
+    padding: 30px 23px;
+}
+.div1 h2,h4{
+    padding: 0px 20px;
+}
+ .ki-image{
+    width: 250px;
+ }
+ .div2{
+    height: 560px;
+    width:300px;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px black;
+    margin-top: 20px;
+ }
+ .div2:hover{
+    box-shadow: 0px 0px 20px blue;
+ }
+ .div2 img{
+    padding: 30px 23px;
+ }
+ .third-card{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+ }
+ /* <!-- Coustomer Feed Back Area Style here --> */
+ .customer{
+    text-align: center;
+    padding:30px;
+    margin: 30px 250px;
+ }
+ .customer p{
+    font-size: 50px;
+ }
+ .customer a{
+    text-decoration: none;
+ } 
+ .customer h3{
+    font-size: 20px;
+ }
+ .feedback-image{
+    width: 150px;
+    border-radius: 20px;
+ }
+ .color{
+    color: rgb(12, 150, 204);
+    font-size: 30px;
+ }
+ .child{
+   
+    background-color:white;
+    
+    padding-top: 30px;
+    border-radius: 20px;
+ }
+ .child:hover{
+    box-shadow: 0px 0px 30px rgb(7, 163, 225) ;
+ }
+ .father{
+    display: flex;
+    gap:30px;
+    margin-top: 40px;
+ }
+ /* <!- Follower Scetion Style here -> */
+.follow{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    width: 800px;
+    height: 200px;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgb(30, 23, 23);
+    /* gap: 100px; */
+    
+    align-items: center;
+    margin: auto;
+    justify-content:space-evenly;
+}
+
+   
+
+.spell h1{
+    font-size: 50px;
+}
+.spell h4{
+    font-size: 13px;
+    /* padding: 5px 0px; */
+    /* margin-bottom: 100px; */
+    text-align: center;
+}
+.spell{
+    text-align: center;
+}
+/*  Healthy Food Newsletter Section Here > */
+.newsletter{
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px gray;
+    height: 240px;
+    width: 50%;
+    z-index: 3;
+    border-radius: 20px;
+    margin-left: 312px;
+}
+.newsletter{
+   margin-top: 100px;
+   
+
+}
+.newsletter h1{
+    font-size: 40px;
+    padding-top: 50px;
+}
+.newsletter span{
+    color:#10ADFA
+}
+.newsletter p{
+    font-size: 20px;
+    padding: 15px;
+}
+.email{
+    padding: 7px 100px;
+    border-left: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px solid #10ADFA;
+}
+.submit-input{
+    padding: 7px 15px;
+    border-right: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border:2px solid #10ADFA;
+    background-color: #10ADFA;
+    color: white;
+    margin:0px 0px;
+}
+.submit-input:hover{
+    background-color: #ffffff;
+    color:#10ADFA
+}
+
+
+.footer{
+    
+    height: 400px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+.footer h1{
+    padding: 150px 0px 20px 0px;
+    color: #10ADFA;
+}
+.footer span{
+    color:#506c7a;
+}
+.footer p{
+    color: white;
+    padding: 10px;
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+.footer li{
+    padding: 0px 0px 20px 0px;
+}
+.footer a{
+    text-decoration: none;
+    color:#506c7a
+}
+.footer a:hover{
+    color:#10ADFA;
+}
+.footer hr{
+    margin:0px 120px 0px 120px;
+    border: 1px solid #10ADFA
+}
+.footer >p>span{
+    color:#10ADFA;
+}
